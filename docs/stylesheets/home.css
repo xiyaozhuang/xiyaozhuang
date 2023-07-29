@@ -1,0 +1,56 @@
+/* hero style */
+.hero {
+  flex: 2;
+  position: relative;
+
+  background-color: hsla(232, 15%, 21%, 1);
+}
+
+.hero-teaser {
+  position: absolute;
+  bottom: 3.2rem;
+
+  margin: 0 0.8rem;
+
+  color: #fff;
+}
+
+.hero-teaser h1 {
+  margin-bottom: 0;
+
+  color: inherit;
+  font-weight: 700;
+}
+
+.hero-teaser .md-button {
+  color: #fff;
+}
+
+.hero-teaser .md-button--primary {
+  background-color: #db1457;
+  border-color: #db1457;
+}
+
+/* feature style */
+.feature {
+  flex: auto;
+  position: relative;
+
+  background-color: #fff;
+
+  display: flex;
+}
+
+.feature-contents {
+  flex-grow: 1;
+
+  color: #000000de;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  flex-grow: 1;
+  margin: 0 0.8rem;
+}
