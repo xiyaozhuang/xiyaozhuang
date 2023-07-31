@@ -12,18 +12,18 @@
 
   margin: 0 0.8rem;
 
-  color: #fff;
+  color: hsla(232, 75%, 95%, 1);
 }
 
 .hero-teaser h1 {
-  margin-bottom: 0;
+  margin: 0;
 
   color: inherit;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .hero-teaser .md-button {
-  color: #fff;
+  color: hsla(232, 75%, 95%, 1);
 }
 
 .hero-teaser .md-button--primary {
@@ -36,15 +36,13 @@
   flex: auto;
   position: relative;
 
-  background-color: #fff;
+  background-color: hsla(232, 75%, 95%, 1);
 
   display: flex;
 }
 
 .feature-contents {
   flex-grow: 1;
-
-  color: #000000de;
 
   display: flex;
   flex-wrap: wrap;
@@ -53,4 +51,24 @@
 .feature-item {
   flex-grow: 1;
   margin: 0 0.8rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.feature-item .md-button {
+  flex-grow: 1;
+
+  color: hsla(232, 15%, 21%, 1);
+}
+
+.feature-item h1 {
+  margin: 0;
+
+  color: inherit;
+  font-weight: 400;
+}
+
+.feature-item p {
+  font-weight: 400;
 }
