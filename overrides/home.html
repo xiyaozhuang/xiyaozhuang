@@ -1,79 +1,14 @@
 {% extends "main.html" %} {% block tabs %} {{ super() }}
 
-<style>
-  /* create blank canvas */
-  .md-main {
-    max-height: 0;
-  }
-
-  .md-main__inner {
-    margin: unset;
-  }
-
-  /* hero style */
-  .hero {
-    flex: 2;
-    position: relative;
-
-    background-color: hsla(232, 15%, 21%, 1);
-  }
-
-  .hero-teaser {
-    position: absolute;
-    bottom: 3.2rem;
-
-    margin: 0 0.8rem;
-
-    color: #fff;
-  }
-
-  .hero-teaser h1 {
-    margin-bottom: 0;
-
-    color: inherit;
-    font-weight: 700;
-  }
-
-  .hero-teaser .md-button {
-    color: #fff;
-  }
-
-  .hero-teaser .md-button--primary {
-    background-color: #db1457;
-    border-color: #db1457;
-  }
-
-  /* feature style */
-  .feature {
-    flex: auto;
-    position: relative;
-
-    background-color: #fff;
-
-    display: flex;
-  }
-
-  .feature-contents {
-    flex-grow: 1;
-
-    color: #000000de;
-
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .feature-item {
-    flex-grow: 1;
-    margin: 0 0.8rem;
-  }
-</style>
+<link rel="stylesheet" href="stylesheets/blank-template.css" />
+<link rel="stylesheet" href="stylesheets/home.css" />
 
 <section class="hero">
   <div class="md-grid">
     <div class="hero-teaser md-typeset">
-      <h1>Hero teaser</h1>
+      <h1>Xiyao Zhuang</h1>
 
-      <p>Example paragraph</p>
+      <p>Sample projects using MkDocs and PyScript</p>
 
       <a class="md-button md-button--primary"> Get started </a>
 
@@ -85,21 +20,27 @@
 <section class="feature">
   <div class="feature-contents md-grid">
     <div class="feature-item md-typeset">
-      <h2>Feature item 1</h2>
+      <a class="md-button" href="noughts-and-crosses">
+        <h1>Noughts & Crosses</h1>
 
-      <p>Example paragraph</p>
+        <p>A simple noughts and crosses game written in Python</p>
+      </a>
     </div>
 
     <div class="feature-item md-typeset">
-      <h2>Feature item 2</h2>
+      <a class="md-button">
+        <h1>Upcoming</h1>
 
-      <p>Example paragraph</p>
+        <p>New pages in development</p>
+      </a>
     </div>
 
     <div class="feature-item md-typeset">
-      <h2>Feature item 3</h2>
+      <a class="md-button">
+        <h1>Upcoming</h1>
 
-      <p>Example paragraph</p>
+        <p>New pages in development</p>
+      </a>
     </div>
   </div>
 </section>
