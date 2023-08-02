@@ -7,13 +7,34 @@
   display: flex;
 }
 
+/* overlay style */
+#overlay {
+  flex: 1;
+
+  opacity: 1;
+  transition: opacity 1s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* play button style */
+#play-button {
+  font-size: 200%;
+  color: var(--md-default-fg-color);
+}
+
 /* board style */
-.board {
+#board {
   width: 90%;
   max-width: 500px;
   margin: auto;
 
-  display: flex;
+  opacity: 0;
+  transition: opacity 1s;
+
+  display: none;
   flex-direction: column;
 }
 

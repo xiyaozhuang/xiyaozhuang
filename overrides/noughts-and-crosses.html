@@ -8,7 +8,13 @@
 <py-script src="../python-scripts/noughts-and-crosses.py"></py-script>
 
 <section class="container">
-  <div id="board" class="board">
+  <div id="overlay" class="md-typeset">
+    <button id="play-button" class="md-button" py-click="game.start_game()">
+      Play
+    </button>
+  </div>
+
+  <div id="board">
     <div class="row">
       <div id="index-1" class="cell">
         <button py-click="game.make_move('index-1')"></button>
